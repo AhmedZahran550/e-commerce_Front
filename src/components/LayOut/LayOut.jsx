@@ -6,8 +6,8 @@ const LayOut = () => {
     return (
         <>
         <NavBar/>
-        <div className="container"></div>
-        <Outlet></Outlet>
+        <div className="container"> <Outlet></Outlet></div>
+       
         </>
     );
 }

@@ -74,7 +74,7 @@ export default function NavBar() {
                 <i className="fa-brands cursor-pointer  px-2 fa-youtube"></i>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to={"products"}>
+                <Link className="nav-link" aria-current="page" to={"register"}>
                   Register
                 </Link>
               </li>
@@ -82,13 +82,13 @@ export default function NavBar() {
                 <Link
                   className="nav-link"
                   aria-current="page"
-                  to={"categories"}
+                  to={"login"}
                 >
                   login
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to={"brands"}>
+                <Link className="nav-link" aria-current="page" to={"logout"}>
                   logOut
                 </Link>
               </li>
